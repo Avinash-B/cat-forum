@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CAT</title>
+</head>
+<body>
+	<h1>Hi Everyone-Welcome to CAT forum</h1>
+	<a href="/new/">New Question</a>
+	{% for query in questions %}
+	<p>{{query.question}}</p>
+	<p>---------------------------------------------------------------------------------------</p>
+	{% endfor %}
+</body>
+</html>
